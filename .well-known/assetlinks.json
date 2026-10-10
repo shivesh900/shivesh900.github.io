@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.shivesh900.shvalotracker",
+      "sha256_cert_fingerprints": [
+        "8E:2E:A6:4D:AE:64:50:5E:CE:18:01:24:96:B4:74:9D:60:00:6E:06:E1:12:36:57:A9:2D:74:06:0E:05:CB:0B"
+      ]
+    }
+  }
+]

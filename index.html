@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shivesh Haran P · Projects</title>
+<meta name="description" content="Shivesh Haran P: portfolio and live projects.">
+<meta name="theme-color" content="#0b0d12">
+<meta property="og:title" content="Shivesh Haran P · Projects">
+<meta property="og:description" content="Portfolio and live projects.">
+<meta property="og:url" content="https://shivesh900.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d12;--panel:#12151d;--line:#222736;--text:#e8eaf0;--muted:#8b92a6;--accent:#8b7cff;--accent2:#2fd3c5}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh;
+background-image:radial-gradient(900px 500px at 85% -10%,rgba(139,124,255,.16),transparent 60%),radial-gradient(700px 400px at -10% 30%,rgba(47,211,197,.08),transparent 60%)}
+main{max-width:980px;margin:0 auto;padding:64px 22px 40px}
+.hi{font:500 13px/1 Inter,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent2)}
+h1{font:700 clamp(38px,8vw,64px)/1.05 "Space Grotesk",sans-serif;letter-spacing:-.02em;margin:14px 0 14px}
+.lead{color:var(--muted);max-width:560px;font-size:17px}
+.hero{margin:34px 0 54px;display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:18px;padding:26px;
+background:linear-gradient(135deg,rgba(139,124,255,.14),rgba(47,211,197,.06) 60%,transparent),var(--panel);transition:border-color .2s,transform .2s}
+.hero:hover{border-color:var(--accent);transform:translateY(-2px)}
+.hero h2{font:700 26px/1.2 "Space Grotesk",sans-serif;margin:8px 0 6px}
+.hero p{color:var(--muted);max-width:620px}
+.btn{display:inline-flex;align-items:center;gap:8px;margin-top:18px;background:var(--accent);color:#0b0d12;font-weight:600;padding:11px 18px;border-radius:999px}
+.sec{font:600 13px/1 Inter,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.card{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;transition:border-color .2s,transform .2s}
+.card:hover,.card:focus-visible{border-color:var(--accent2);transform:translateY(-2px);outline:none}
+.card h3{font:600 19px/1.25 "Space Grotesk",sans-serif}
+.card p{color:var(--muted);font-size:14.5px;flex:1}
+.tag{align-self:flex-start;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent2);border:1px solid rgba(47,211,197,.35);padding:3px 8px;border-radius:999px}
+.go{font-size:14px;font-weight:600;color:var(--accent)}
+footer{max-width:980px;margin:0 auto;padding:30px 22px 48px;color:var(--muted);font-size:13.5px;display:flex;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line)}
+footer a{color:var(--text);text-decoration:none}footer a:hover{color:var(--accent2)}
+@media (max-width:520px){main{padding-top:44px}.hero{padding:22px}}
+</style>
+</head>
+<body>
+<main>
+  <p class="hi">Hi, I'm</p>
+  <h1>Shivesh Haran P</h1>
+  <p class="lead">Projects I've built and shipped, all live on the web.</p>
+
+  <a class="hero" href="/3d-portfolio/">
+    <span class="tag">Portfolio</span>
+    <h2>3D Portfolio</h2>
+    <p>Interactive 3D developer portfolio: a neon dev room with floating project panels and a holographic AI assistant.</p>
+    <span class="btn">Enter the portfolio <span aria-hidden="true">→</span></span>
+  </a>
+
+  <p class="sec">Projects</p>
+  <div class="grid">
+      <a class="card" href="/sh-valo-tracker/">
+        <span class="tag">PWA · Android</span>
+        <h3>SH VALO TRACKER</h3>
+        <p>Valorant player lookup, agents, maps, weapons, comp builder, crosshairs and ranks. Installs as an app.</p>
+        <span class="go">Open <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" href="/clash-royale-hub/">
+        <span class="tag">Deck builder</span>
+        <h3>Clash Royale Hub</h3>
+        <p>Clash Royale deck builder and personal stats page.</p>
+        <span class="go">Open <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" href="/neurosy-rag/">
+        <span class="tag">ML · RAG</span>
+        <h3>NeuroSy RAG</h3>
+        <p>Neuro-symbolic healthcare assistant: symptom extraction, ML ensemble, knowledge-graph validation and RAG explanations.</p>
+        <span class="go">Open <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" href="/resume-scanner-segregator/">
+        <span class="tag">NLP</span>
+        <h3>Resume Scanner & Segregator</h3>
+        <p>Parses resumes with NLP, scores them against a job description and sorts candidates into priority tiers.</p>
+        <span class="go">Open <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" href="/genaitripplanner/">
+        <span class="tag">GenAI</span>
+        <h3>GenAI Trip Planner</h3>
+        <p>Day-by-day itineraries from real places and live weather, with budget split and routes.</p>
+        <span class="go">Open <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" href="/nlp-project/">
+        <span class="tag">NLP</span>
+        <h3>NLP Language Detection</h3>
+        <p>Detects 11 languages, including Tamil, Hindi and Telugu, with a char n-gram model running in the browser.</p>
+        <span class="go">Open <span aria-hidden="true">→</span></span>
+      </a>
+  </div>
+</main>
+<footer>
+  <span>© <span id="y">2026</span> Shivesh Haran P</span>
+  <a href="https://github.com/shivesh900">GitHub</a>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
